@@ -130,16 +130,16 @@ img {
 
  @media screen and (max-width: 768px ) {
     .container {
-        width: 768px;
+        width: 100%;
     }
  }
 
 
  @media screen and (max-width: 480px ) {
     .container {
-        width: 480px;
+        width: 100%;
     }
-    
+
     .row {
         flex-wrap: wrap;
         justify-content: center;
@@ -172,4 +172,12 @@ img {
        margin-block:-3em;
     }
 
+ }
+
+/* 768px e fino ai 1160px  */
+
+ @media screen and (min-width: 769px ) and (max-width: 1160px ) {
+    .container{
+        width: 100%;
+    }
  }
